@@ -1,0 +1,54 @@
+
+<!DOCTYPE html>
+<html lang="en">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+	<script type="text/javascript" src="http://www.google.com/jsapi">
+    </script>
+    <head><meta charset="utf-8" />
+	<style>
+	#main{
+    position:relative;
+    margin-left:30%;
+	margin-right:30%;
+    margin-left:auto;
+    margin-right:auto;
+    z-index: -1;
+	width: 900px;
+    height:300px;
+    background-color: #ffffe6;
+	}
+	
+	h1{   
+    position:relative; 
+    text-align:center;
+    font-size:35px;
+	top:30px;
+    }
+	</style>
+	
+	
+	</head>
+	<title>PDTreatment</title>
+	
+    <body>
+	<div id="main">
+		<h1>Parkinson Desease Treatment WebPage</h1>
+       
+	</div>	<!-- end of main --> 
+        <script type="text/javascript" src="plotlyjs-bundle.js"></script>
+        <script type="text/javascript" src="register-transforms-bundle.js"></script>
+            
+        <script type="text/javascript" src="figure.js"></script>
+        
+        <div id="57d9af81-bd71-4f24-bc1c-e3fba1650fd0" style="height: 500px; width: 800px;" class="plotly-graph-div"></div>
+		
+        <script type="text/javascript">
+            window.PLOTLYENV={'BASE_URL': 'https://plot.ly'};
+            registerPlotlyjsTransforms(Plotly);
+            
+            Plotly.newPlot("57d9af81-bd71-4f24-bc1c-e3fba1650fd0",  figure.data, figure.layout, {"mapboxAccessToken": "pk.eyJ1IjoiY2hyaWRkeXAiLCJhIjoiY2lxMnVvdm5iMDA4dnhsbTQ5aHJzcGs0MyJ9.X9o_rzNLNesDxdra4neC_A", "linkText": "Export to plot.ly", "showLink": false})
+            
+        </script>
+	
+    </body>
+</html>
